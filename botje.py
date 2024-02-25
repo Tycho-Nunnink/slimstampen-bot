@@ -1,11 +1,12 @@
 import http.client, json, time
 
 LESSON_GROUP_ID = input("Geef die lesson-group id ahh broer: ")
-COOKIE = input("geef mij koekjes (ik heb honger): ")
+COOKIE = input("Geef mij koekjes (ik heb honger): ")
+LESSONS_SKIPPEN = int(input("Geef hoeveel lessons geskipt moeten worden: "))
 
 conn = http.client.HTTPSConnection("metis.slimstampen.nl")
 conn.request("GET", f"/ruggedlearning/api/lesson-group/{LESSON_GROUP_ID}", headers={"Cookie": COOKIE})
-lijstje = [x["id"] for x in json.loads(conn.getresponse().read())["lessonInfoList"]] #wth, for loop in 1 regel
+lijstje = [x["id"] for num, x in enumerate(json.loads(conn.getresponse().read())["lessonInfoList"]) if num >= LESSONS_SKIPPEN] #wth, we letten er niet op
 print(lijstje)
 
 for aantalGedaan, lessonId in enumerate(lijstje, 1):

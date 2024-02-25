@@ -29,7 +29,7 @@ automatisch slimstampen maken zonder dat je de browser open hoeft te hebben
 ![image](https://github.com/Jan0Niek/slimstampen-bot/assets/73346551/0ff4f370-f451-499c-9d2f-59ef0969a805)
 
 10. Kopieer opnieuw zonder witregels als nodig.
-11. Plak in het programma en druk Enter. Je woordenlijsten zullen voor vandaag allemaal een kroontje erbij krijgen!
+11. Plak dit in het programma en druk Enter. Daarna kan je eventueel invullen hoeveel lijsten vanaf boven je wilt overslaan, als je dit niet wilt vul je 0 in. Dan zullen je woordenlijsten voor vandaag allemaal een kroontje erbij krijgen!
 (Als het programma direct afsluit heb je iets verkeerd gedaan, begin opnieuw vananf stap 1.)
 
 ### voor de duidelijkheid
