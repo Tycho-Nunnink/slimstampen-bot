@@ -7,7 +7,7 @@ automatisch slimstampen maken zonder dat je de browser open hoeft te hebben
 2. Kopieer van de URL-balk (adresbalk) de lesson-group ID vanaf na het =-tekentje.
 ![p1](https://github.com/Jan0Niek/slimstampen-bot/assets/73346551/e0862e2f-6fc7-4f08-af13-e0594b860342)
 
-3. Download en open het programma door botje.exe te dubbelklikken of door met Python botje.py te draaien.
+3. Download en open het programma door botje.exe te dubbelklikken of door met Python botje.py te draaien. Als de exe niet werkt raad ik aan [python](https://www.python.org/downloads/) te installeren en het py bestand te gebruiken.
 
 4. Plak de lesson-group ID in het programma door te rechtermuisklikken, druk dan Enter.
 ![image](https://github.com/Jan0Niek/slimstampen-bot/assets/73346551/4a819315-fa71-4019-b467-7f7e32e5c49d)
