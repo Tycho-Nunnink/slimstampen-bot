@@ -1,5 +1,5 @@
-# slimstampen bot
-automatisch slimstampen maken zonder dat je de browser open hoeft te hebben
+# Slimstampen bot
+automatisch Slimstampen maken zonder dat je de browser open hoeft te hebben.
 
 ## gebruiksaanwijzing
 1. Ga naar https://metis.slimstampen.nl, log in en kies je groep aan lijsten die je af wilt hebben voor vandaag.
@@ -12,7 +12,7 @@ automatisch slimstampen maken zonder dat je de browser open hoeft te hebben
 4. Plak de lesson-group ID in het programma door te rechtermuisklikken, druk dan Enter.
 ![image](https://github.com/Jan0Niek/slimstampen-bot/assets/73346551/4a819315-fa71-4019-b467-7f7e32e5c49d)
 
-5. Ga terug naar slimstampen, druk op F12 of ctr+shift+i, ga naar het tabje 'Networking' en herlaad de pagina.
+5. Ga terug naar Slimstampen, druk op F12 of ctr+shift+i, ga naar het tabje 'Networking' en herlaad de pagina.
 ![image](https://github.com/Jan0Niek/slimstampen-bot/assets/73346551/b5617ce4-17e2-4a31-a21a-26ee9b83e1bd)
 
 6. Klik op een item dat 'nl-NL' heet.
@@ -30,7 +30,7 @@ automatisch slimstampen maken zonder dat je de browser open hoeft te hebben
 
 10. Kopieer opnieuw zonder witregels als nodig.
 11. Plak dit in het programma en druk Enter. Daarna kan je eventueel invullen hoeveel lijsten vanaf boven je wilt overslaan, als je dit niet wilt vul je 0 in. Dan zullen je woordenlijsten voor vandaag allemaal een kroontje erbij krijgen!
-(Als het programma direct afsluit heb je iets verkeerd gedaan, begin opnieuw vananf stap 1.)
+(Als het programma direct afsluit heb je iets verkeerd gedaan, begin opnieuw vanaf stap 1.)
 
 ### voor de duidelijkheid
 Geef je cookie natuurlijk nooit aan andere mensen, je kan er namelijk iemands acount mee stelen. Het programma gebruikt de cookie alleen om lijsten te maken op jouw acount, daarna vergeet hij hem weer.
