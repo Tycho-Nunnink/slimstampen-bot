@@ -1,8 +1,8 @@
 import http.client, json, time
 
-LESSON_GROUP_ID = input("Geef die lesson-group id ahh broer: ")
+LESSON_GROUP_ID = input("Geef die lesson-group ID ahh broer: ")
 COOKIE = input("Geef mij koekjes (ik heb honger): ")
-LESSONS_SKIPPEN = int(input("Geef hoeveel lessons geskipt moeten worden: "))
+LESSONS_SKIPPEN = int(input("Geef hoeveel lessons geskipt moeten worden vanaf boven: "))
 
 conn = http.client.HTTPSConnection("metis.slimstampen.nl")
 conn.request("GET", f"/ruggedlearning/api/lesson-group/{LESSON_GROUP_ID}", headers={"Cookie": COOKIE})

@@ -1,6 +1,6 @@
 import http.client, json, time
 
-LESSON_ID = input("Geef die lesson-group id ahh broer: ")
+LESSON_ID = input("Geef die lesson ID ahh broer: ")
 COOKIE = input("Geef mij koekjes (ik heb honger): ")
 
 conn = http.client.HTTPSConnection("metis.slimstampen.nl")
